@@ -97,7 +97,12 @@
 
 <section>
     <h2>Classifica Campionato</h2>
-    <p>In calcolo</p>
+    <p>Riccardo Urbani - 10
+    Simone Ricciardi - 6
+    Tiziano Ascani - 4
+    Giordano Fusaro - 3
+    Daniele Mazda - 2
+    Tommaso Fusaro - 1</p>
 </section>
 
 <footer>
