@@ -103,11 +103,10 @@
         Giordano Fusaro - 3
         Daniele Mazda - 2
         Tommaso Fusaro - 1
-</section>
 
 <footer>
     <p>&copy; 2025 SRK</p>
 </footer>
 
-</body>
-</html>
+
+
