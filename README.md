@@ -97,12 +97,12 @@
 
 <section>
     <h2>Classifica Campionato</h2>
-    <li>Riccardo Urbani - 10<li>
-    <li>Simone Ricciardi - 6<li>
-    <li>Tiziano Ascani - 4<li>
-    <li>Giordano Fusaro - 3<li>
-    <li>Daniele Mazda - 2</li>
-    <li>Tommaso Fusaro - 1</li>
+    <li>Riccardo Urbani - 10
+    <li>Simone Ricciardi - 6
+    <li>Tiziano Ascani - 4
+    <li>Giordano Fusaro - 3
+    <li>Daniele Mazda - 2
+    <li>Tommaso Fusaro - 1
 
 <footer>
     <p>&copy; 2025 SRK</p>
