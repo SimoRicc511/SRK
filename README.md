@@ -1,4 +1,3 @@
-#SRK
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -29,7 +28,7 @@
             border-radius: 5px;
             margin-top: 20px;
         }
-        .form-container input, .form-container textarea {
+        .form-container input {
             width: 100%;
             padding: 10px;
             margin: 10px 0;
@@ -67,6 +66,11 @@
 </header>
 
 <section>
+    <h2>Chi siamo</h2>
+    <p>Gare Kart Rental nel Lazio, organizzate fra amici ed aperte a tutti, per avere sia divertimento che agonismo.</p>
+</section>
+
+<section>
     <h2>Gare Precedenti</h2>
     <ul>
         <li>Artena - 09/03/2025</li>
@@ -75,6 +79,11 @@
     <ul>
         <li>Kartodromo Pomezia - Data da definire</li>
     </ul>
+</section>
+
+<section>
+    <h2>Costi</h2>
+    <p>Per tenere i costi il più bassi possibile, si pagherà esclusivamente la pista come una normalissima gara organizzata fra amici. I costi quindi varieranno da pista a pista ma saranno specificati sul sito nel modo più indicativo possibile.</p>
 </section>
 
 <section>
@@ -96,17 +105,23 @@
 </section>
 
 <section>
+    <h2>Altro</h2>
+    <p>Per ulteriori info, proposte o richieste non soddisfatte dal sito:</p>
+    <p>Email: <a href="mailto:simone.ricciardi93@outlook.it" style="color: white;">simone.ricciardi93@outlook.it</a></p>
+</section>
+
+<section>
     <h2>Classifica Campionato</h2>
-    <li>Riccardo Urbani - 10
-    <li>Simone Ricciardi - 6
-    <li>Tiziano Ascani - 4
-    <li>Giordano Fusaro - 3
-    <li>Daniele Mazda - 2
-    <li>Tommaso Fusaro - 1
+    <ul>
+        <li>Riccardo Urbani - 10</li>
+        <li>Simone Ricciardi - 6</li>
+        <li>Tiziano Ascani - 4</li>
+        <li>Giordano Fusaro - 3</li>
+        <li>Daniele Mazda - 2</li>
+        <li>Tommaso Fusaro - 1</li>
+    </ul>
+</section>
 
 <footer>
     <p>&copy; 2025 SRK</p>
 </footer>
-
-
-
