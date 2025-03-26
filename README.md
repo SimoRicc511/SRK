@@ -43,7 +43,7 @@
             color: white;
             border: none;
             padding: 10px;
-            cursor: pointer;
+            cursor: pointer; 
             border-radius: 5px;
             width: 100%;
         }
@@ -97,12 +97,12 @@
 
 <section>
     <h2>Classifica Campionato</h2>
-    <p>Riccardo Urbani - 10
-    Simone Ricciardi - 6
-    Tiziano Ascani - 4
-    Giordano Fusaro - 3
-    Daniele Mazda - 2
-    Tommaso Fusaro - 1</p>
+    <p>Riccardo Urbani - 10</p>
+</p>Simone Ricciardi - 6</p>
+</p>Tiziano Ascani - 4</p>
+</p>Giordano Fusaro - 3</p>
+</p>Daniele Mazda - 2</p>
+</p>Tommaso Fusaro - 1</p>
 </section>
 
 <footer>
