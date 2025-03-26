@@ -1,72 +1,108 @@
-# SRK
+#SRK
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campionato SRK</title>
+    <title>SRK 2025</title>
     <style>
-        /* Imposta lo sfondo rosso e il testo bianco */
         body {
-            background-color: #FF0000; /* Rosso acceso */
-            color: #FFFFFF; /* Testo bianco */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #FF0000; /* Rosso acceso */
+            color: white;
         }
-        /* Stili per i titoli */
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #B22222; /* Rosso scuro */
+        }
         h1, h2, h3 {
-            color: #FFFFFF; /* Rosso per i titoli */
-            text-align: center;
+            margin: 0;
         }
-        /* Colore rosso per i link */
-        a {
-            color: #FF6347; /* Un altro tono di rosso per i link */
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        /* Layout della pagina */
-        .container {
-            width: 80%;
-            margin: 0 auto;
+        section {
             padding: 20px;
         }
-        .header {
-            text-align: center;
+        .form-container {
+            background-color: #333;
             padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
         }
-        .content {
-            text-align: center;
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #555;
+            color: white;
         }
-        .footer {
+        .form-container button {
+            background-color: #32CD32; /* Verde acceso */
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .form-container button:hover {
+            background-color: #28A745; /* Verde più scuro */
+        }
+        footer {
+            background-color: #B22222;
             text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-            background-color: #B22222; /* Colore rosso scuro per il footer */
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <header class="header">
-            <h1>Benvenuti al Campionato SRK!</h1>
-            <p>Unisciti alla nostra emozionante competizione di karting!</p>
-        </header>
+<header>
+    <h1>SRK 2025</h1>
+</header>
 
-        <section class="content">
-            <h2>Prossime Gare</h2>
-            <p>Non perdere le emozionanti gare in programma! Controlla le date e iscriviti subito!</p>
+<section>
+    <h2>Gare Precedenti</h2>
+    <ul>
+        <li>Artena - 09/03/2025</li>
+    </ul>
+    <h3>Prossime Gare</h3>
+    <ul>
+        <li>Kartodromo Pomezia - Data da definire</li>
+    </ul>
+</section>
 
-            <h3>Iscriviti Ora!</h3>
-            <a href="#signup">Clicca qui per iscriverti</a>
-        </section>
-
-        <footer class="footer">
-            <p>Campionato SRK - Tutti i diritti riservati</p>
-        </footer>
+<section>
+    <h2>Iscriviti Ora</h2>
+    <div class="form-container">
+        <form action="mailto:Simone.ricciardi93@outlook.it" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="cognome">Cognome:</label>
+            <input type="text" id="cognome" name="cognome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Invia Iscrizione</button>
+        </form>
     </div>
+</section>
+
+<section>
+    <h2>Classifica Campionato</h2>
+    <p>In calcolo</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 SRK</p>
+</footer>
 
 </body>
 </html>
