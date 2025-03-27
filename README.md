@@ -126,3 +126,12 @@
 <footer>
     <p>&copy; 2025 SRK</p>
 </footer>
+
+<html>
+<head>
+    <meta name="google-site-verification" content="google6d1940f6b0b951e3" />
+</head>
+<body>
+    Google site verification
+</body>
+</html>
