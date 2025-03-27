@@ -1,186 +1,149 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kart Championship</title>
-  <style>
-    /* Reset some default styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    /* Body */
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f0f0f0;
-      color: #333;
-    }
-
-    /* Header */
-    header {
-      background-color: #b92f2f; /* Rosso Ferrari */
-      padding: 20px;
-      text-align: center;
-      color: white;
-    }
-
-    header .logo {
-      font-size: 2rem;
-      font-weight: bold;
-    }
-
-    nav ul {
-      list-style-type: none;
-      display: flex;
-      justify-content: center;
-      padding: 0;
-    }
-
-    nav ul li {
-      margin: 0 15px;
-    }
-
-    nav ul li a {
-      text-decoration: none;
-      color: white;
-      font-size: 1.2rem;
-      transition: color 0.3s;
-    }
-
-    nav ul li a:hover {
-      color: #ffdb00; /* Giallo per evidenziare */
-    }
-
-    /* Section Styles */
-    section {
-      padding: 50px 10%;
-      text-align: center;
-    }
-
-    section h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-
-    section p {
-      font-size: 1.2rem;
-      margin-bottom: 20px;
-    }
-
-    /* Form Styles */
-    form {
-      max-width: 600px;
-      margin: 0 auto;
-      background-color: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    form input {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-      font-size: 1rem;
-    }
-
-    form button {
-      width: 100%;
-      padding: 12px;
-      background-color: #b92f2f; /* Rosso Ferrari */
-      border: none;
-      color: white;
-      font-size: 1.2rem;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-
-    form button:hover {
-      background-color: #ffdb00; /* Giallo per evidenziare */
-    }
-
-    /* Footer */
-    footer {
-      background-color: #333;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-
-  </style>
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kart Championship</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        header {
+            background-color: #D92D2B; /* Rosso Ferrari */
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 2em;
+        }
+        .gare, .classifica, .albo-d-oro, .form-container {
+            margin: 30px 0;
+        }
+        .gare div, .classifica div, .albo-d-oro div {
+            margin: 10px 0;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .form-container input[type="text"], .form-container input[type="email"] {
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-container input[type="submit"] {
+            background-color: #D92D2B; /* Rosso Ferrari */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-container input[type="submit"]:hover {
+            background-color: #A12B28;
+        }
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="logo">Kart Championship</div>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#gare-precedenti">Gare Precedenti</a></li>
-        <li><a href="#prossime-gare">Prossime Gare</a></li>
-        <li><a href="#albo-d-oro">Albo d'Oro</a></li>
-        <li><a href="#classifica">Classifica</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="home">
-    <h1>Benvenuto nel Campionato Kart</h1>
-    <p>Scopri tutte le gare e le classifiche del campionato più emozionante!</p>
-  </section>
+<header>
+    <h1>Kart Championship</h1>
+</header>
 
-  <section id="gare-precedenti">
-    <h2>Gare Precedenti</h2>
-    <p><strong>Artena - Kartodromo di Artena</strong></p>
-    <p>Vincitore: Riccardo Urbani</p>
-  </section>
+<nav>
+    <a href="#gare">Gare</a>
+    <a href="#iscrizione">Iscriviti</a>
+    <a href="#classifica">Classifica</a>
+    <a href="#albo">Albo d'Oro</a>
+</nav>
 
-  <section id="prossime-gare">
-    <h2>Prossime Gare</h2>
-    <p><strong>Pomezia - Kartodromo Pomezia</strong></p>
-    <p>Kart Elettrici</p>
-  </section>
+<div class="container">
+    <section id="gare" class="gare">
+        <div>
+            <h2 class="section-title">Gara Precedente</h2>
+            <p><strong>Gara:</strong> Artena</p>
+            <p><strong>Luogo:</strong> Kartodromo di Artena</p>
+            <p><strong>Vincitore:</strong> Riccardo Urbani</p>
+        </div>
+        <div>
+            <h2 class="section-title">Prossime Gare</h2>
+            <p><strong>Prossima Gara:</strong> Pomezia</p>
+            <p><strong>Luogo:</strong> Kartodromo Pomezia</p>
+            <p><strong>Tipo:</strong> Kart Elettrici</p>
+        </div>
+    </section>
 
-  <section id="albo-d-oro">
-    <h2>Albo d'Oro</h2>
-    <p>2024 - Simone Ricciardi</p>
-  </section>
+    <section id="iscrizione" class="form-container">
+        <h2 class="section-title">Iscriviti Ora</h2>
+        <form action="mailto:Simone.ricciardi93@outlook.it" method="post" enctype="text/plain">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="submit" value="Iscriviti Ora">
+        </form>
+    </section>
 
-  <section id="classifica">
-    <h2>Classifica Attuale</h2>
-    <ul>
-      <li>Riccardo Urbani - 10 punti</li>
-      <li>Simone Ricciardi - 6 punti</li>
-      <li>Tiziano Ascani - 4 punti</li>
-      <li>Giordano Fusaro - 3 punti</li>
-      <li>Daniele Mazda - 2 punti</li>
-      <li>Tommaso Fusaro - 1 punto</li>
-    </ul>
-  </section>
+    <section id="classifica" class="classifica">
+        <h2 class="section-title">Classifica Attuale</h2>
+        <div>
+            <p><strong>1. Riccardo Urbani</strong> - 10 punti</p>
+            <p><strong>2. Simone Ricciardi</strong> - 6 punti</p>
+            <p><strong>3. Tiziano Ascani</strong> - 4 punti</p>
+            <p><strong>4. Giordano Fusaro</strong> - 3 punti</p>
+            <p><strong>5. Daniele Mazda</strong> - 2 punti</p>
+            <p><strong>6. Tommaso Fusaro</strong> - 1 punto</p>
+        </div>
+    </section>
 
-  <section id="iscrizione">
-    <h2>Iscriviti al Campionato</h2>
-    <form action="mailto:simone.ricciardi93@outlook.it" method="post" enctype="text/plain">
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome" required>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
-      <button type="submit">Iscriviti Ora</button>
-    </form>
-  </section>
+    <section id="albo" class="albo-d-oro">
+        <h2 class="section-title">Albo d'Oro</h2>
+        <div>
+            <p><strong>2024:</strong> Simone Ricciardi</p>
+        </div>
+    </section>
+</div>
 
-  <footer>
+<footer>
     <p>Powered by SRK</p>
-  </footer>
+</footer>
+
 </body>
 </html>
