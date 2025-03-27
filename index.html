@@ -3,85 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SRK Championship</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <title>Karting Championship</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- MENU -->
     <header>
-        <h1>SRK Championship</h1>
         <nav>
-            <ul>
-                <li><a href="#gare">GARE</a></li>
-                <li><a href="#classifica">CLASSIFICA</a></li>
-                <li><a href="#hall-of-fame">HALL OF FAME</a></li>
-                <li><a href="#iscriviti" class="btn">ISCRIVITI ORA</a></li>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gare">Gare</a></li>
+                <li><a href="#classifica">Classifica</a></li>
+                <li><a href="#iscrizione">Iscriviti</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="hero">
-        <h2>La competizione più dura, per i veri piloti</h2>
-        <p>Velocità, strategia, adrenalina. Sei pronto?</p>
-        <a href="#iscriviti" class="btn">ISCRIVITI ORA</a>
+    <!-- SEZIONE ISCRIZIONE -->
+    <section id="iscrizione" class="iscrizione-container">
+        <h2>Iscriviti al Campionato</h2>
+        <form action="#" method="POST" class="iscrizione-form">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <button type="submit">Iscriviti Ora</button>
+        </form>
     </section>
 
+    <!-- SEZIONE GARE -->
     <section id="gare">
         <h2>Prossime Gare</h2>
         <div class="gara">
-            <h3>GP di KartRoma</h3>
-            <p>Data: 15 Aprile 2025</p>
-            <p>Pista: KartRoma</p>
+            <h3>Gara 1</h3>
+            <p>Data: 10 Febbraio 2025</p>
+            <p>Descrizione: Gara di apertura della stagione</p>
         </div>
         <div class="gara">
-            <h3>GP di Pomezia</h3>
-            <p>Data: 22 Maggio 2025</p>
-            <p>Pista: Pomezia Kart Track</p>
+            <h3>Gara 2</h3>
+            <p>Data: 24 Febbraio 2025</p>
+            <p>Descrizione: Seconda tappa del campionato</p>
         </div>
     </section>
 
+    <!-- SEZIONE CLASSIFICA -->
     <section id="classifica">
-        <h2>Classifica Piloti</h2>
+        <h2>Classifica Generale</h2>
         <table>
-            <thead>
-                <tr>
-                    <th>Posizione</th>
-                    <th>Pilota</th>
-                    <th>Punti</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Simone</td>
-                    <td>150</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Riccardo</td>
-                    <td>130</td>
-                </tr>
-            </tbody>
+            <tr>
+                <th>Posizione</th>
+                <th>Pilota</th>
+                <th>Punti</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Simone</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Riccardo</td>
+                <td>40</td>
+            </tr>
         </table>
     </section>
 
-    <section id="hall-of-fame">
-        <h2>Hall of Fame</h2>
-        <p>Chi ha dominato negli anni passati?</p>
-        <ul>
-            <li>2024 - Campione: Mario Rossi</li>
-            <li>2023 - Campione: Luca Bianchi</li>
-        </ul>
-    </section>
-
-    <section id="iscriviti">
-        <h2>Iscriviti Ora</h2>
-        <a href="https://forms.gle/linkdelmodulo" class="btn">ISCRIVITI ORA</a>
-    </section>
-
+    <!-- FOOTER -->
     <footer>
-        <p>Powered by SRK</p>
+        <p>&copy; 2025 Karting Championship</p>
     </footer>
 
 </body>
