@@ -1,13 +1,6 @@
 <html lang="it">
 <head>
-    <html>
-<head>
     <meta name="google-site-verification" content="google6d1940f6b0b951e3" />
-</head>
-<body>
-    Google site verification
-</body>
-</html>
     <meta name="description" content="Gare kart rental economiche nel Lazio. Competizione aperta a tutti su piste selezionate. Entra in gara e sfida altri piloti!" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,6 +23,19 @@
         }
         section {
             padding: 20px;
+        }
+        .gare-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap; /* Per schermi piccoli, le colonne vanno una sotto l'altra */
+        }
+        .gare-box {
+            flex: 1;
+            min-width: 300px; /* Evita che diventino troppo strette su schermi piccoli */
+            background-color: #B22222; /* Sfondo rosso scuro */
+            padding: 15px;
+            border-radius: 5px;
         }
         .form-container {
             background-color: #333;
@@ -79,15 +85,20 @@
     <p>Gare Kart Rental nel Lazio, organizzate fra amici ed aperte a tutti, per avere sia divertimento che agonismo.</p>
 </section>
 
-<section>
-    <h2>Gare Precedenti</h2>
-    <ul>
-        <li>Artena - 09/03/2025</li>
-    </ul>
-    <h3>Prossime Gare</h3>
-    <ul>
-        <li>Kartodromo Pomezia - Data da definire</li>
-    </ul>
+<section class="gare-container">
+    <div class="gare-box">
+        <h2>Gare Precedenti</h2>
+        <ul>
+            <li>Artena - 09/03/2025</li>
+        </ul>
+    </div>
+    
+    <div class="gare-box">
+        <h2>Prossime Gare</h2>
+        <ul>
+            <li>Kartodromo Pomezia - Data da definire</li>
+        </ul>
+    </div>
 </section>
 
 <section>
@@ -135,3 +146,5 @@
     <p>&copy; 2025 SRK</p>
 </footer>
 
+</body>
+</html>
