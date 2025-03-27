@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: red;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px red;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px;
+    background: url('kart.jpg') center/cover no-repeat;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #222;
+}
+
+table, th, td {
+    border: 1px solid red;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+}
