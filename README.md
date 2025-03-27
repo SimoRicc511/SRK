@@ -126,5 +126,3 @@
 <footer>
     <p>&copy; 2025 SRK</p>
 </footer>
-
-google-site-verification: google6d1940f6b0b951e3.html
