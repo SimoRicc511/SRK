@@ -1,5 +1,6 @@
 <html lang="it">
 <head>
+    <meta name="description" content="Gare kart rental economiche nel Lazio. Competizione aperta a tutti su piste selezionate. Entra in gara e sfida altri piloti!" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SRK 2025</title>
