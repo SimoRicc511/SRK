@@ -1,5 +1,13 @@
 <html lang="it">
 <head>
+    <html>
+<head>
+    <meta name="google-site-verification" content="google6d1940f6b0b951e3" />
+</head>
+<body>
+    Google site verification
+</body>
+</html>
     <meta name="description" content="Gare kart rental economiche nel Lazio. Competizione aperta a tutti su piste selezionate. Entra in gara e sfida altri piloti!" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -127,11 +135,3 @@
     <p>&copy; 2025 SRK</p>
 </footer>
 
-<html>
-<head>
-    <meta name="google-site-verification" content="google6d1940f6b0b951e3" />
-</head>
-<body>
-    Google site verification
-</body>
-</html>
