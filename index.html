@@ -1,79 +1,74 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SRK Championship</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kart Championship</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
+  <header>
+    <div class="logo">Kart Championship</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gare-precedenti">Gare Precedenti</a></li>
+        <li><a href="#prossime-gare">Prossime Gare</a></li>
+        <li><a href="#albo-d-oro">Albo d'Oro</a></li>
+        <li><a href="#classifica">Classifica</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <header>
-        <h1>SRK Championship</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#gare">Gare</a></li>
-                <li><a href="#classifica">Classifica</a></li>
-                <li><a href="#iscrizione">Iscriviti Ora</a></li>
-            </ul>
-        </nav>
-    </header>
+  <section id="home">
+    <h1>Benvenuto nel Campionato Kart</h1>
+    <p>Scopri tutte le gare e le classifiche del campionato più emozionante!</p>
+  </section>
 
-    <section id="home">
-        <h2>Benvenuto nel Campionato SRK</h2>
-        <p>Vivi l'adrenalina delle gare karting con noi!</p>
-    </section>
+  <section id="gare-precedenti">
+    <h2>Gare Precedenti</h2>
+    <p><strong>Artena - Kartodromo di Artena</strong></p>
+    <p>Vincitore: Riccardo Urbani</p>
+  </section>
 
-    <section id="gare">
-        <h2>Prossime Gare</h2>
-        <ul>
-            <li>Gara 1 - 10 Aprile 2025</li>
-            <li>Gara 2 - 24 Aprile 2025</li>
-            <li>Gara 3 - 8 Maggio 2025</li>
-        </ul>
-    </section>
+  <section id="prossime-gare">
+    <h2>Prossime Gare</h2>
+    <p><strong>Pomezia - Kartodromo Pomezia</strong></p>
+    <p>Kart Elettrici</p>
+  </section>
 
-    <section id="classifica">
-        <h2>Classifica Campionato</h2>
-        <table>
-            <tr>
-                <th>Posizione</th>
-                <th>Pilota</th>
-                <th>Punti</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Simone Ricciardi</td>
-                <td>50</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Riccardo Rossi</td>
-                <td>40</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Alessandro Bianchi</td>
-                <td>35</td>
-            </tr>
-        </table>
-    </section>
+  <section id="albo-d-oro">
+    <h2>Albo d'Oro</h2>
+    <p>2024 - Simone Ricciardi</p>
+  </section>
 
-    <section id="iscrizione">
-        <h2>Iscriviti Ora</h2>
-        <form action="submit.php" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <button type="submit">Invia</button>
-        </form>
-    </section>
+  <section id="classifica">
+    <h2>Classifica Attuale</h2>
+    <ul>
+      <li>Riccardo Urbani - 10 punti</li>
+      <li>Simone Ricciardi - 6 punti</li>
+      <li>Tiziano Ascani - 4 punti</li>
+      <li>Giordano Fusaro - 3 punti</li>
+      <li>Daniele Mazda - 2 punti</li>
+      <li>Tommaso Fusaro - 1 punto</li>
+    </ul>
+  </section>
 
-    <footer>
-        <p>Powered by SRK</p>
-    </footer>
+  <section id="iscrizione">
+    <h2>Iscriviti al Campionato</h2>
+    <form action="mailto:simone.ricciardi93@outlook.it" method="post" enctype="text/plain">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+      <button type="submit">Iscriviti Ora</button>
+    </form>
+  </section>
 
+  <footer>
+    <p>Powered by SRK</p>
+  </footer>
 </body>
 </html>
